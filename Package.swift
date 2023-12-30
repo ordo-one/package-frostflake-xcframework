@@ -12,8 +12,8 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "Frostflake",
-            targets: ["FrostflakeDllKit"]),
+            name: "FrostflakeKit",
+            targets: ["FrostflakeKit"]),
     ],
     targets: [
         .target(
@@ -21,9 +21,9 @@ let package = Package(
             path: "Sources/Dummy"
         ),
         .binaryTarget(
-            name: "FrostflakeDllKit",
-            url: "https://github.com/ordo-one/package-frostflake/raw/xcframework/FrostflakeDllKit.xcframework.zip",
-            checksum: "cef002e947c506d100696db6f107d324c1067111e25bd6cfa0a9713d51705e1f"
+            name: "FrostflakeKit",
+            url: "https://github.com/ordo-one/package-frostflake/raw/xcframework/FrostflakeKit.xcframework.zip",
+            checksum: "07d43efbd6abb7ecfa9311d3047532a0db4b13fa958cac466e5dfe4e076a62ca"
         )
     ]
 )
