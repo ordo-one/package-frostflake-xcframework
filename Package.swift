@@ -23,7 +23,7 @@ let package = Package(
         .binaryTarget(
             name: "FrostflakeKit",
             url: "https://github.com/ordo-one/package-frostflake/raw/xcframework/FrostflakeKit.xcframework.zip",
-            checksum: "07d43efbd6abb7ecfa9311d3047532a0db4b13fa958cac466e5dfe4e076a62ca"
+            checksum: "6d41161ce83dc2cd917ee0ca53451990532cccc0710c2d0fe11c69ebf7e97ade"
         )
     ]
 )
