@@ -4,7 +4,7 @@
 import PackageDescription
 
 let xcframeworks: [String: String] = [
-    "macos": "f51f8259b1f11cfe3100833a0048049dda8c37f58ddb1e5986605f51ae833b46",
+    "macos": "355eccfc7bfe7bc3946031bd2b5311b1d582e68cbf25b38f3044b3c35f5e3d85",
     "linux-aarch64": "b0f41ea7d12e877bec6aab596178f973988e7c335aaeca129f6b6080d9b517da",
     "linux-x86_64": "bcde8f81babd503688d391d336c1b7727fc008c87055260f741e761ca74ec8ac"
 ]
